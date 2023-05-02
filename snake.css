@@ -18,6 +18,11 @@ body {
     height: auto;
     
   }
+
+.buttonstyle{
+ padding-top: 15px;
+ justify-content: center;
+  }
   
   /* Adjust game elements for smaller screens */
   @media only screen and (max-width: 600px) {
