@@ -37,7 +37,7 @@ window.onload= function(){
     document.addEventListener("keyup",changeDirection);
     //update();
 
-    setInterval(update,1000/7); // 100 milisconds
+    setInterval(update,1000/6); // 100 milisconds
 }
 
 function update(){
