@@ -144,6 +144,42 @@ function placeFood(){
     foodY= Math.floor(Math.random() * rows)* blockSize;
 }
 
+
+function up(){
+
+
+    if(velocityY!= 1){
+        velocityX = 0;
+        velocityY = -1;
+    
+        }
+
+}
+function left(){
+     if( velocityX != 1){
+        velocityX= -1;
+        velocityY= 0;
+    
+        }
+
+}
+function down(){
+    if( velocityY != -1){
+        velocityX= 0;
+        velocityY= 1;
+    
+        }
+}
+
+function right(){
+    if( velocityX != -1){
+        velocityX= 1;
+        velocityY= 0;
+
+    }
+
+}
+
 function reset() {
     // reset snake position and velocity
     snakeX = blockSize * 5;
